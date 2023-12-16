@@ -1,0 +1,13 @@
+.btn-custom {
+    width: 100%;
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 1px solid #1BC5BD;
+    color: #1BC5BD;
+    transition: .3s;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: #1BC5BD;
+}

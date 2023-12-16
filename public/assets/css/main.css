@@ -1,0 +1,260 @@
+/*Grid*/
+
+/*.grid-container-3-1 {*/
+/*    display: grid;*/
+/*    grid-template-columns: auto;*/
+/*    background-color: #ccc;*/
+/*    grid-gap: 1px;*/
+/*    border: 1px solid #ccc;*/
+/*}*/
+
+#part_info_btn:hover {
+    cursor: pointer;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #1BC5BD;
+    grid-gap: 1px;
+    border: 1px solid #1BC5BD;
+}
+
+.grid-label {
+    background-color: #C9F7F5;
+    color: #1BC5BD;
+}
+
+.radio-label {
+    color: #1BC5BD;
+    font-size: large;
+}
+
+.grid-input {
+    grid-column: 2 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.grid-label label {
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+
+.grid-input input, .grid-input select, .grid-input textarea {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    color: #888;
+}
+
+.grid-input input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.grid-input textarea {
+    height: 70px;
+}
+
+.grid-input input:focus, .grid-input select:focus, .grid-input textarea:focus {
+    outline: none;
+}
+
+.grid-container {
+    border: 1px solid #1BC5BD;
+}
+
+.grid-container-2 {
+    display: flex;
+    background-color: #1BC5BD;
+}
+
+.grid-container-2 .grid-label {
+    width: 120px;
+    border-right: 1px solid #1BC5BD;
+}
+
+.grid-container-2 .grid-input {
+    flex: 1;
+}
+
+.grid-container-2.grid-border-top {
+    border-top: 1px solid #1BC5BD;
+}
+
+/*///////*/
+
+.tab-list-item {
+    flex: 1;
+    text-align: center;
+    vertical-align: top;
+    padding: 7px 15px;
+    /*border-right: 1px solid #1BC5BD;*/
+    background-color: #f7f7f7;
+    color: #1BC5BD;
+}
+
+.tab-list-item:hover {
+    cursor: pointer;
+}
+
+.tab-list {
+    /*border-bottom: 1px solid #1BC5BD;*/
+    display: flex;
+    width: 100%;
+}
+
+.tab {
+    border: 1px solid #1BC5BD;
+    position: relative;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.tab-content.active {
+    display: block;
+    background: #fff;
+}
+
+.tab-list-item.active {
+    background: #1BC5BD;
+    color: white;
+}
+
+fieldset {
+    /*margin-bottom: 1em !important;*/
+    border: 1px solid #1BC5BD !important;
+    padding: 1em !important;
+}
+
+legend {
+    padding: 5px 20px !important;
+    border-radius: 20px;
+    color: #1BC5BD;
+    font-size: larger;
+    float: none;
+    width: auto;
+    border: 1px solid #1BC5BD;
+}
+
+fieldset.child-fieldset legend {
+    padding: 3px 6px !important;
+    color: #555;
+    font-size: small;
+}
+
+.indi-input {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.indi-input label {
+    width: 100%;
+    background-color: #C9F7F5;
+    margin-bottom: 0;
+    padding: 2px 0;
+    color: #1BC5BD;
+}
+
+.indi-input input, .indi-input select {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 3px 6px;
+    color: #1BC5BD;
+}
+
+.indi-input input[type='checkbox'] {
+    margin: 8px 0;
+}
+
+.indi-input input:focus, .indi-input select:focus {
+    outline: none;
+}
+
+.main-border {
+    border: 1px solid #ccc;
+}
+
+.main-bg-color {
+    background-color: #1BC5BD;
+}
+
+.main-color {
+    color: #1BC5BD;
+}
+
+.fraction-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #888;
+}
+
+.vertical-divider {
+    width: 2px;
+    height: 100%;
+    background-color: #888;
+}
+
+.table-container {
+    border: 1px solid #1BC5BD;
+}
+
+.table-height {
+    min-height: 250px;
+    max-height: 400px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.table-container .mesh-toolbar {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.table-container th {
+    background-color: #C9F7F5 !important;
+    border: 1px solid #1BC5BD !important;
+}
+
+.btn-plus {
+    padding: 5px 10px;
+    background-color: #1BC5BD;
+    color: white;
+}
+
+.btn-control {
+    padding: 5px 10px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #1BC5BD;
+    transition: .3s;
+    color: #1BC5BD !important;
+}
+
+.btn-control:hover {
+    color: white !important;
+    background-color: #1BC5BD;
+    cursor: pointer;
+}
+
+
+.customer-btn:hover {
+    cursor: pointer;
+}
